@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{box-sizing: border-box; margin: 0; padding: 0}
+
+body{font-family: 'Ubuntu', sans-serif; background-color:#E1D9DF}
+
+.contenedor{width: 100%; max-width: 1125px; margin: auto}
+
+/*Cabecera*/
+
+header{width: 100%; height: 530px; background-color: #FFFFFF}
+
+.logo img{width: 100%; max-width: 450px; display: block; margin: auto; padding-top: 40px}
+
+.menu{display: flex;flex-direction: row; flex-wrap: nowrap; justify-content: space-around; background-color: #92589E; height: 45px}
+
+.menu a{text-decoration: none; color: #FFFFFF; text-transform: uppercase; margin: auto}
+
+a:hover{color: #BF85CD}
+
+/*Fin de cabecera*/
+
+
+/*Sobre mi*/
+
+.sobre-mi{width: 100%; height: 330px}
+
+.contenedor-1{width: 100%; display: inline-block; display: flex; flex-wrap: nowrap; justify-content: center}
+
+.mi-foto{width: 100%; max-width: 250px}
+
+.mi-foto img{width: 100%; padding-top: 60px}
+
+h2{font-family: 'Kaushan Script', cursive;  color: #92589E; padding-top: 60px; padding-bottom: 20px}
+
+.contenedor-1 > .texto{width: 100%; max-width: 265px; padding-left: 20px; padding-right: 20px; text-align: justify; line-height: 1.4em}
+
+@media all and (max-width: 600px)
+{.mi-foto img{max-width: 200px; margin: 20px}}
+
+/*Habilidades*/
+
+.habilidades {width: 100%}
+
+.contenedor-2 h2{display: inline-block}
+
+.iconos{max-width: 1125px; background-color: white; margin: auto; display: inline-block; display: flex; flex-direction: row; flex-wrap: wrap; justify-content:space-around; padding-top: 30px} 
+
+.iconos img{height: 100px}
+
+.marca img{padding-left: 15px}
+
+.publi img{padding-left: 35px}
+
+.pack img{padding-left: 25px}
+
+.iconos p{text-align: center; padding: 20px}
+
+@media all and (min-width: 1125px)
+{.contenedor-2 h2{padding-left: 160px}}
+
+@media all and (max-width: 600px)
+{.iconos img{max-height: 80px}}
+	
+/*Portfolio*/
+
+.portfolio{width: 100%}
+
+.titulo-2 h2{display: block; display: flex}
+
+.contenedor-3{max-width: 1125px; background-color: white; margin:auto}
+
+.fotos{display: inline-block; display: flex; flex-direction: row; flex-wrap: wrap; justify-content:space-around}
+
+.fotos img{width: 300px; padding-top: 15px; padding-bottom: 15px}
+
+.link{text-align: center; background-color:rgba(255,255,255,0.50); height: 40px; width: 100px; margin-top:30px; margin-bottom: 40px; margin-left: auto; margin-right: auto; padding-top: 10px}
+
+.link a{text-decoration: none; color:#92589E}
+
+.portfolio a:hover{color: white}
+
+@media all and (min-width: 1125px)
+{.titulo-2 h2{padding-left: 160px}}
+
+@media all and (max-width: 600px)
+{.fotos img{width: 200px}}
+
+/*Footer*/
+
+.bottom-footer{background-color: #92589E; height: 40px}
+
+.bottom-footer p{color: white; font-size: 12px; text-align: center; padding-top: 15px}
+
